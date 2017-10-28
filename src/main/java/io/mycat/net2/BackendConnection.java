@@ -4,7 +4,7 @@ import io.mycat.net2.mysql.connection.back.PhysicalDatasource;
 import io.mycat.net2.mysql.handler.ResponseHandler;
 
 public interface BackendConnection extends ClosableConnection {
-
+    // test.
     public abstract String getSchema();
 
     public abstract void setSchema(String newSchema);
